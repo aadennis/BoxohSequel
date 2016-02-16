@@ -1,4 +1,4 @@
--- For each database, count rows in non-empty tables,
+-- For each database, count rows in tables,
 -- ordering by rowcount desc per database
 
 declare @sql nvarchar(1000) = 'use ?; 
